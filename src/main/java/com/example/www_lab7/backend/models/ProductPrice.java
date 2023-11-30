@@ -21,7 +21,7 @@ public class ProductPrice {
     @Column(name = "note")
     private String note;
 
-    public ProductPrice() {
+    public ProductPrice(LocalDateTime now, int i, String s) {
     }
 
     public ProductPrice(Product product, LocalDateTime price_date_time, double price, String note) {
